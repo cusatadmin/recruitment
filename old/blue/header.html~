@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cochin University of Science and Technology</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keyword" content="Cochin University,CUSAT,College,University">
+    <!-- FAV ICON(BROWSER TAB ICON) -->
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CJosefin+Sans:600,700" rel="stylesheet">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- ALL CSS FILES -->
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
+    <link href="css/style-mob.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+   <!-- MOBILE MENU -->
+    <section>
+        <div class="ed-mob-menu">
+            <div class="ed-mob-menu-con">
+                <div class="ed-mm-left">
+                    <div class="wed-logo">
+                        <a href="https://cusat.ac.in"><img src="./images/logo.png" alt="">
+						</a>
+                    </div>
+                </div>
+                <div class="ed-mm-right">
+                    <div class="ed-mm-menu">
+                        <a href="https://cusat.ac.in/index.html#!" class="ed-micon"><i class="fa fa-bars"></i></a>
+                        <div class="ed-mm-inn">
+                            <a href="https://cusat.ac.in/index.html#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
+                            <h4>All Courses</h4>
+                            <ul>
+                                <li><a href="https://cusat.ac.in/course-details.html">Accounting/Finance</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">civil engineering</a></li>
+                                <li><a href="https://cusat.ac.incourse-details.html">Art/Design</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Marine Engineering</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Business Management</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Journalism/Writing</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Physical Education</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Political Science</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Sciences</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Statistics</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Web Design/Development</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">SEO</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Google Business</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Graphics Design</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Networking Courses</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Information technology</a></li>
+                            </ul>
+                            <h4>User Account</h4>
+                            <ul>
+                                <li><a href="https://cusat.ac.in/index.html#!" data-toggle="modal" data-target="#modal1">Sign In</a></li>
+                                <li><a href="https://cusat.ac.in/index.html#!" data-toggle="modal" data-target="#modal2">Register</a></li>
+                            </ul>
+                            <h4>All Pages</h4>
+                            <ul>
+                                <li><a href="https://cusat.ac.in/index.html">Home</a></li>
+                                <li><a href="https://cusat.ac.in/about.html">About us</a></li>
+                                <li><a href="https://cusat.ac.in/admission.html">Admission</a></li>
+                                <li><a href="https://cusat.ac.in/all-courses.html">All courses</a></li>
+                                <li><a href="https://cusat.ac.in/course-details.html">Course details</a></li>
+                                <li><a href="https://cusat.ac.in/awards.html">Awards</a></li>
+                                <li><a href="https://cusat.ac.in/seminar.html">Seminar</a></li>
+                                <li><a href="https://cusat.ac.in/events.html">Events</a></li>
+                                <li><a href="https://cusat.ac.in/event-details.html">Event details</a></li>
+                                <li><a href="https://cusat.ac.in/event-register.html">Event register</a></li>
+                                <li><a href="https://cusat.ac.in/contact-us.html">Contact us</a></li>
+                            </ul>
+                            <h4>User Profile</h4>
+                            <ul>
+                                <li><a href="https://cusat.ac.in/dashboard.html">User profile</a></li>
+                                <li><a href="https://cusat.ac.in/db-courses.html">Courses</a></li>
+                                <li><a href="https://cusat.ac.in/db-exams.html">Exams</a></li>
+                                <li><a href="https://cusat.ac.in/db-profile.html">Prfile</a></li>
+                                <li><a href="https://cusat.ac.in/db-time-line.html">Time line</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HEADER SECTION-->
+    <section>
+        <!-- TOP BAR -->
+        <div class="ed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ed-com-t1-left">
+                            <ul>
+                                <li><a href="#">Students</a>
+                                </li>
+                                <li><a href="#">Faculty</a>
+                                </li>
+                                <li><a href="#">Library</a>
+                                </li>
+                                <li><a href="#">Examinations</a>
+                                </li>
+                                <li><a href="#">Public Relations</a>
+                                </li>
+                                <li><a href="#">Careers</a>
+                                </li>
+                                <li><a href="#">Tenders</a>
+                                </li>
+                                <li><a href="#">Intranet </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-right">
+                            <ul>
+                                <li><a >Sign In</a>
+                                </li>
+                                <li><a >Sign Up</a>
+                                </li>
+                                <li><a>Select Language v</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO AND MENU SECTION -->
+        <div class="top-logo affix-top" data-spy="affix" data-offset-top="250">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wed-logo">
+                            <a href="https://cusat.ac.in/index.html"><img src="./Education Master Template_files/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="main-menu">
+                            <ul>
+                               <li><a href="index.html">News</a>
+                                </li>
+                                 <li><a href="index.html">Event</a>
+                                </li>
+                                <li class="cour-menu">
+                                    <a href="#!" class="mm-arr">Academics</a>
+                                      <div class="mm-pos">
+                                        <div class="cour-mm m-menu">
+                                            <div class="m-menu-inn">
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+													<h4>Engineering</h4>
+                                                    <ul>
+                                                        
+														<li><a href="index-1.html">School of Engineering</a></li>
+														<li><a href="all-courses.html">Cochin Uziversity College of Engineering, Kuttanad</a></li>
+														<li><a href="about.html">Kunjali Marakkar School of Marine Engineering</a></li>
+														
+                                                    </ul>
+                                                    
+                                                    <h4>Technology</h4>
+                                                    <ul>
+                                          <li><a href="index.html">Department of Computer Applications</a></li>
+														<li><a href="index-1.html">Department of Computer Science</a></li>
+														<li><a href="all-courses.html">Department of Electronics</a></li>
+														<li><a href="about.html">Department of Instrumentation</a></li>
+                                          <li><a href="index.html">International School of Photonics</a></li>
+														<li><a href="index-1.html">Department of Polymer Science and Rubber Technology</a></li>
+														<li><a href="all-courses.html">Department of Ship Technology</a></li>
+																											
+                                                    </ul>
+                                                    
+                                                   
+                                                    <h4>Humanities</h4>
+                                                    <ul>
+                                                        <li><a href="index.html">Department of English and Foreign Languages</a></li>
+																		  <li><a href="index-1.html">Department of Hindi</a></li>
+														
+                                                    </ul>
+                                                    <h4> Social Sciences</h4>
+                                                    <ul>
+                                                        <li><a href="index.html">Department of Applied Economics</a></li>
+																		  <li><a href="index-1.html">chool of Management Studies</a></li>
+		                                              </ul>
+		                                              <h4> Law</h4>
+                                                    <ul>
+                                                        <li><a href="index.html">School of Legal Studies</a></li>
+																		 
+		                                              </ul>
+		                                              
+                                                  </div>
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+													<h4>Marine Sciences</h4>
+                                                    <ul>
+														<li><a href="facilities.html">Department of Atmospheric Sciences</a></li>
+														<li><a href="facilities-detail.html">Department of Chemical Oceanography</a></li>
+														<li><a href="research.html">Department of Physical Oceanography</a></li>
+														<li><a href="seminar.html">Department of Marine Biology, Microbiology and Biochemistry</a></li>
+														<li><a href="gallery-photo.html">Department of Marine Geology and Geophysics</a></li>
+                                          <li><a href="gallery-photo.html">School of Industrial Fisheries</a></li>          
+                                          </ul>
+													<h4 >Sciences</h4>
+                                                    <ul>
+                                                        <li><a href="dashboard.html">Department of Applied Chemistry</a></li>
+                                                        <li><a href="db-courses.html">Department of Biotechnology</a></li>
+                                                        <li><a href="db-exams.html">Department of Mathematics</a></li>
+                                                        <li><a href="db-profile.html">Department of Physics</a></li>
+                                                        <li><a href="db-time-line.html">Department of Statistics</a></li>
+                                                    </ul>
+                                              
+                                              <h4> Environmental Studies</h4>
+                                                    <ul>
+                                                        <li><a href="index.html">School of Environmental Studies</a></li>
+																		 
+		                                              </ul>
+                                          <h4 class="ed-dr-men-mar-top">Other Departments</h4>
+                                                    <ul>
+														<li><a href="research.html">Department of Physical Education</a></li>
+														<li><a href="seminar.html">Department of Youth Welfare</a></li>
+														<li><a href="gallery-photo.html">Department of Public Relations and Publications</a></li>
+                                          <li><a href="gallery-photo.html">Engineering Department</a></li>          
+                                          </ul>
+                                          <h4>University Library</h4>
+                                           </div>       
+													
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+													<h4>Centres</h4>
+                                                    <ul>
+														<li><a href="admin.html">Advanced Centre for Atmospheric Radar Research </a></li>
+														<li><a href="admin-add-courses.html">Centre for Advanced Materials</a></li>
+														<li><a href="admin-all-courses.html">Centre for enabling technology for the aged</a></li>
+														<li><a href="admin-student-details.html">Centre for Information Resource Management</a></li>
+														<li><a href="admin-user-add.html">Centre for Science Communication </a></li>
+														<li><a href="admin-user-all.html">Centre for Science in Society</a></li>
+														<li><a href="admin-panel-setting.html">Centre for Techno – Strategic Studies </a></li>
+														<li><a href="admin-event-add.html">Centre for the study of Social Exclusion and Inclusive Policy</a></li>
+														<li><a href="admin-event-all.html">Centre for Innovation Technology Transfer and Industrial Collaboration</a></li>
+														<li><a href="admin-setting.html">DDU Kaushal Kendras (DDUKK)</a></li>
+														<li><a href="admin-slider.html">Inter University Centre for Development of Marine Biotechnology</a></li>
+														<li><a href="admin-slider-edit.html">Inter University Centre for IPR Studies</a></li>
+														<li><a href="admin-course-details.html">Inter University Centre for Nanomaterials and Devices </a></li>
+														<li><a href="admin-login.html">International Relations and Academic Admissions </a></li>
+                                         	<li><a href="admin-event-edit.html">Centre for Budget Studies</a></li>
+														<li><a href="admin-exam-add.html">eNational Centre for Aquatic Animal Health</a></li>
+														<li><a href="admin-exam-all.html">eRajiv Gandhi Chair for Contemporary Studies</a></li>
+														<li><a href="admin-exam-edit.html">Sophisticated Test and Instrumentation Centre </a></li>
+														<li><a href="admin-export-data.html">UGC CELL for SC/ST</a></li>
+														<li><a href="admin-import-data.html">Women's Studies Centre</a></li>
+														
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="admi-menu">
+                                    <a href="about.html" class="mm-arr">Admission</a>
+                                      <div class="mm-pos">
+                                        <div class="admi-mm m-menu" style="display: none;">
+                                            <div class="m-menu-inn">
+                                                <div class="mm1-com mm1-admi-com mm1-s1">
+                                                <h4>Academic Programmes</h4>
+
+<p>CUSAT is academically structured into 9 faculties: Engineering, Environmental Studies, Humanities, Law, Marine Sciences, Medical Sciences & Technology, Science, Social Sciences and Technology.
+
+</p><p>CUSAT has at present 27 Departments of study and research offering Graduate and Post Graduate programmes across a wide spectrum of disciplines in frontier areas of engineering, science, technology, humanities, law & management.
+
+</p><p>Centres in specialized thematic areas have been established by the University, to encourage and promote collaborative, multi-disciplinary interaction. Conceived as umbrella organizations for inter-faculty interaction and joint enterprises, aimed at wholesome integration, assimilation and dissemination of knowledge beyond all sectarian confines, these Centres are expected to engage themselves in unfettered intellectual pursuits. 
+                                                    
+                                                    </p>
+                                                </div>
+                                                <div class="mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay menu-about" href="admission.html">
+                                                            <img src="images/h-about.jpg" alt="">
+                                                            <span> ACADEMIC ADMISSION PORTAL</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                 <li><a href="events.html">Campus Life</a>
+                                </li>
+                               
+                                <li class="res-menu">
+                                    <a href="#" class="mm-arr">Research</a>
+                                    <!-- MEGA MENU 1 -->
+                                    <div class="mm-pos">
+                                        <div class="res-mm m-menu" style="display: none;">
+                                            <div class="m-menu-inn">
+                                                <div class="mm2-com mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="about.html">
+                                                            <img src="images/h-about1.jpg" alt="">
+                                                            <span>Recognised Research Centers</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="about.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm2-com mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="admission.html">
+                                                            <img src="images/h-adm1.jpg" alt="">
+                                                            <span>Research Areas</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="admission.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm2-com mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="awards.html">
+                                                            <img src="images/h-cam1.jpg" alt="">
+                                                            <span>RCUSAT Knowledge Forum</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="awards.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm2-com mm1-com mm1-s4">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="seminar.html">
+                                                            <img src="images/h-res1.jpg" alt="">
+                                                            <span>Funding Oppurtunities</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="seminar.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                
+                                
+                                <li class="about-menu">
+                                    <a href="about.html" class="mm-arr">About us</a>
+                                    <!-- MEGA MENU 1 -->
+                                    <div class="mm-pos">
+                                        <div class="about-mm m-menu" style="display: none;">
+                                            <div class="m-menu-inn">
+                                                <div class="mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay menu-about" href="admission.html">
+                                                            <img src="images/h-about.jpg" alt="">
+                                                            <span>CUSAT</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="mm1-com mm1-s2">
+                                                    <p>Want to change the world? At Berkeley we’re doing just that. When you join the Golden Bear community, you’re part of an institution that shifts the global conversation every single day.</p>
+                                                    <a href="about.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm1-com mm1-s3">
+                                              <ul>
+                                                        <li><a href="all-courses.html">Vision & Mission</a></li>
+                                                        <li><a href="course-details.html">CUSAT at a Glance</a></li>
+                                                        <li><a href="about.html">Administration</a></li>
+                                                        <li><a href="admission.html">Acts and Statutes</a></li>
+                                                        <li><a href="awards.html">Annual Reports</a></li>
+                                                    </ul>
+                                                </div>
+                                              <!--  <div class="mm1-com mm1-s4">
+                                                    <ul>
+                                                        <li><a href="dashboard.html">Contact</a></li>
+                                                        <li><a href="db-courses.html">Location</a></li>
+                                                        <li><a href="db-exams.html">Feedback</a></li>
+                                         </ul>
+                                                </div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--END HEADER SECTION--> 

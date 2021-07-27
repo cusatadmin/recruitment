@@ -1,0 +1,15 @@
+<?php
+
+	$data = $_GET['data'];
+	echo "Received=".$data;
+	
+	$decrypted1 = base64_decode(urldecode($data));
+	
+	echo "Decrypted=".$decrypted1;
+	//$final = (($decrypted1*123456789*5678)/956783);
+	$final = (($decrypted1*999521)/5064)/123456789;
+	echo "Final=".$final."\n\n";
+	
+	echo "\n\n\nDATE:".date("YmdHis");
+
+?>

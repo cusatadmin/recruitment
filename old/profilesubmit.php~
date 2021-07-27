@@ -1,0 +1,42 @@
+<?php 
+
+include 'conf/db.php';
+
+
+$post=$_POST['post'];
+$firstname=$_POST['firstname'];
+$gender=$_POST['gender'];
+$category=$_POST['category'];
+$countrycode=$_POST['profile-countrycode'];
+$mobile=$_POST['profile-mobile'];
+$pwd=$_POST['profile-pwd'];
+$nationality=$_POST['profile-nationality'];
+$dob=$_POST['profile-dob'];
+$marital=$_POST['marital'];
+$guardianname=$_POST['profile-guardianname'];
+$postaladd1=$_POST['profile-postaladd1'];
+$postaladd2=$_POST['profile-postaladd2'];
+$postalcity=$_POST['profile-postalcity'];
+$postalstate=$_POST['profile-postalstate'];
+$postalpin=$_POST['profile-postalpin'];
+$postalcountry=$_POST['profile-postalcountry'];
+$permanentadd1=$_POST['profile-permanentadd1'];
+$permanentadd2=$_POST['profile-permanentadd2'];
+$permanentcity=$_POST['profile-permanentcity'];
+$permanentstate=$_POST['profile-permanentstate'];
+$permanentpin=$_POST['profile-permanentpin'];
+$permanentcountry=$_POST['profile-permanentcountry'];
+
+
+$query = "INSERT INTO `profile` ( `firstname`, `countrycode`, `nationality`, `gender`, `mobile`, `category`, `pwd`, `marital`, `guardianname`, `postaladd1`, `postaladd2`, `postalcity`, `postalstate`, `postalpin`, `postalcountry`, `permanentadd1`, `permanentadd2`, `permanentcity`, `permanentstate`, `permanentpin`, `permanentcountry`,`dob`) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)";
+	echo $query;
+	$stmt = $conn->prepare($query);
+	$stmt->bind_param("sssssssssssssssssssss", $firstname, $countrycode, $nationality,$gender,$mobile, $category, $pwd, $marital, $guardianname, $postaladd1, $postaladd2, $postalcity, $postalstate, $postalpin, $postalcountry, $permanentadd1, $permanentadd2, $permanentcity, $permanentstate, $permanentpin, $permanentcountry,$dob);
+	$stmt->execute(); //working
+	echo $firstname;
+	echo ("' ".$firstname."',' ". $countrycode."',' ".$nationality."',' ".$gender."',' ".$mobile."',' ". $category."',' ". $pwd."',' ". $marital."',' ". $guardianname."',' ". $postaladd1."',' ". $postaladd2."',' ". $postalcity."',' ". $postalstate."',' ". $postalpin."',' ". $postalcountry."',' ". $permanentadd1."',' ". $permanentadd2."',' ".$permanentcity."',' ". $permanentstate."',' ". $permanentpin."',' ". $permanentcountry."'");
+	  $stmt->close();
+	  $conn->close();
+
+ //header("Location: admin-add-courses.html#menu1"); 
+ ?>
